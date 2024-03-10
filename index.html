@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav input[type="search"] {
+            width: 200px;
+            height: 2rem;
+            padding: 0 0.5rem;
+            border: none;
+            border-radius: 20px;
+            background-color: #444;
+            color: white;
+            outline: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+
+        nav a:hover {
+            color: #ccc;
+        }
+
+        main {
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .game {
+            width: 300px;
+            height: 300px;
+            background-color: #f1f1f1;
+            border: 1px solid #ddd;
+            margin: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            flex-direction: column;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .game:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .game h2 {
+            margin: 0;
+            margin-bottom: 0.5rem;
+        }
+
+        .game p {
+            margin: 0;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gaming Website</h1>
+        <nav>
+            <input type="search" id="search" placeholder="Search games...">
+            <a href="#">Home</a>
+            <a href="#">Games</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="game">
+            <h2>Game 1</h2>
+            <p>Description of Game 1</p>
+        </div>
+        <div class="game">
+            <h2>Game 2</h2>
+            <p>Description of Game 2</p>
+        </div>
+        <div class="game">
+            <h2>Game 3</h2>
+            <p>Description of Game 3</p>
+        </div>
+        <div class="game">
+            <h2>Game 4</h2>
+            <p>Description of Game 4</p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 Gaming Website
+    </footer>
+    <script>
+       
